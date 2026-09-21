@@ -8,7 +8,8 @@
     "start": "webpack serve --config ./webpack/webpack.config.js --env env=dev --open",
     "clean": "rimraf dist",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
   },
   "keywords": [],
   "author": "",
